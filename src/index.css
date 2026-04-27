@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: 'Nunito', sans-serif;
+  --color-nobi-primary: #7c3aed;
+  --color-nobi-bg: #ede9fe;
+  --color-nobi-success: #d1fae5;
+  --color-nobi-warning: #fef3c7;
+  --color-nobi-alert: #fee2e2;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(135deg, #f0eeff 0%, #e8f5ff 100%);
+  min-height: 100vh;
+  color: #0f172a;
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 20px);
+}
+
+.glass-card {
+  background: rgba(255,255,255,0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.5);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  border-radius: 16px;
+}
