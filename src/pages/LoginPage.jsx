@@ -33,7 +33,7 @@ export default function LoginPage() {
 
   return (
     <div className="flex flex-col items-center justify-center px-5 py-12 min-h-screen">
-      <div className="w-full max-w-sm">
+      <div className="w-full max-w-2xl">
         <NobiMascot state="idle" size={140} />
         
         <h1 className="text-3xl font-extrabold text-violet-900 text-center mt-6">{t('login_title')}</h1>

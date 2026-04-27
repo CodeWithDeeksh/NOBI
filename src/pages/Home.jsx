@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center px-5 pt-8 pb-28 min-h-screen">
-      <div className="w-full max-w-sm flex flex-col items-center">
+      <div className="w-full max-w-2xl flex flex-col items-center">
         
         {/* Header */}
         <div className="w-full flex justify-between items-center mb-8">

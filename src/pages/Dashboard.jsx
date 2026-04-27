@@ -61,7 +61,7 @@ export default function Dashboard() {
 
   return (
     <div className="flex flex-col items-center px-5 pt-8 pb-28 min-h-screen">
-      <div className="w-full max-w-sm">
+      <div className="w-full max-w-2xl">
         <h1 className="text-2xl font-extrabold text-violet-900 mb-1">📊 My Progress</h1>
         <p className="text-sm text-slate-500 font-semibold mb-5">Track your motor wellness over time</p>
 

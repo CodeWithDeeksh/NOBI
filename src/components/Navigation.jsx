@@ -12,7 +12,7 @@ export default function Navigation({ currentPage, onNavigate }) {
 
   return (
     <div className="fixed bottom-0 left-0 right-0 safe-bottom bg-white/90 backdrop-blur-md border-t border-violet-100 z-50">
-      <div className="flex justify-around items-center max-w-sm mx-auto px-4 h-20 relative">
+      <div className="flex justify-around items-center max-w-2xl mx-auto px-4 h-20 relative">
         {TABS.map((tab) => {
           const isActive = currentPage === tab.id;
           return (

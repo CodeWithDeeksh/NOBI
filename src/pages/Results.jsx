@@ -58,7 +58,7 @@ export default function Results() {
 
   return (
     <div className="flex flex-col items-center px-5 pt-8 pb-28 min-h-screen">
-      <div className="w-full max-w-sm">
+      <div className="w-full max-w-2xl">
         <h1 className="text-2xl font-extrabold text-violet-900 text-center mb-1">Your Results</h1>
         
         {/* NOBI + Score */}
